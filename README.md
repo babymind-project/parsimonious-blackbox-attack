@@ -1,6 +1,6 @@
 # Code for Parsimonious Black-Box Adversarial Attacks via Efficient Combinatorial Optimization
 
-This code is for reproducing the results in the paper "Parsimonious Black-Box Adversarial Attacks via Efficient Combinatorial Optimization" accepted at ICML 2019.
+This code is for reproducing the results in the paper, [Parsimonious Black-Box Adversarial Attacks via Efficient Combinatorial Optimization](https://arxiv.org/abs/1905.06635), accepted at ICML 2019.
 
 ## Citing this work
 ```
@@ -75,6 +75,9 @@ python main.py --epsilon 0.05 --max_queries 10000
 cd imagenet
 python main.py --targeted --epsilon 0.05 --max_queries 100000
 ```
+
+## Acknowledgements
+This work was partially supported by Samsung Advanced Institute of Technology and Institute for Information & Communications Technology Planning & Evaluation (IITP) grant funded by the Korea government (MSIT) (No.2019-0-01367, BabyMind).
 
 ## License
 MIT License 
